@@ -1,0 +1,20 @@
+[project]
+name = "todo-cli"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "agustin valencia", email = "valencia.ag@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pyyaml>=6.0.2",
+    "typer>=0.16.0",
+]
+
+[project.scripts]
+todo-cli = "todo_cli.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
