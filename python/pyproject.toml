@@ -1,5 +1,5 @@
 [project]
-name = "todo-cli"
+name = "todo"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-todo-cli = "todo_cli.main:main"
+todo = "todo.main:main"
 
 [build-system]
 requires = ["hatchling"]
